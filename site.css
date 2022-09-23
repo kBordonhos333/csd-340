@@ -1,0 +1,33 @@
+/*Module 4 CSS File Kelly Bordonhos August 23, 2022*/
+
+body {
+	font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+.container {
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+h1,h2,h3,h4 {
+	background-color: #3c275a;
+	color: #fff;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #D6A800;
+	padding: 10px;
+}
+
+address a {
+	color: #453674;
+	text-decoration: none;
+}
+
+address a:hover {
+	background-color: #D6A800;
+	color: #4F3674;
+}
+
+address a:visited {
+	color: #3c275a;
+}
