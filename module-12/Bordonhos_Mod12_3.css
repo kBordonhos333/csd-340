@@ -1,0 +1,211 @@
+/* Kelly Bordonhos CSD340 Module 12 Assignment 12.3 CSS October 3rd, 2022 */
+
+header {
+	background-color: teal;
+	padding: 20px;
+	text-align: center;		
+}
+
+header h1 {
+	color: white;
+}
+
+.picture1 {
+	width: 150px;
+	height: 150px;
+}
+
+.navbar {
+	overflow: hidden;
+	text-align: center;
+	background-color: white;
+	border-bottom: solid 25px teal;
+}
+
+.navbar a {
+	display: inline;
+	color: teal;
+	padding: 20px 28px;
+	text-decoration: none;
+}
+
+.navbar a:hover {
+	background-color: teal;
+	color: white;
+}
+
+h1 {
+	color: teal;
+	text-align: center;
+}
+
+.grid_3_col {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(500px,1fr));
+	grid-gap: 1rem;
+	padding: 2px;
+	border: 5px solid teal;
+}
+
+.card {
+	margin: 10px;
+	padding: 5px;
+	border: 2px solid black;
+	background-color: #56d1cb;
+	text-align: center;
+}
+
+.contact {
+	margin: 5px;
+	padding: 5px;
+	border: 2px solid black;
+	background-color: #56d1cb;
+	height: auto;
+	width: auto;
+	text-align: center;
+}
+
+.contact fieldset {
+	border: 2px solid black;
+}
+
+.btn {
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 15px 32px;
+    color: #000;
+}
+
+.btn-primary {
+    background-color: #4F3674;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #D6A800;
+    color: #4F3674;
+}
+
+footer {
+	overflow: hidden;
+	text-align: center;
+	background-color: white;
+	border-bottom: solid 15px teal;
+	border-top: solid 15px teal;
+}
+
+footer p.name {
+	float: left;
+}
+
+footer p.link {
+	float: right;
+	}
+
+footer a {
+	text-decoration: none;
+}
+
+footer a:hover {
+	text-decoration: underline;
+	
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Position the "previous button" to the left */
+.prev {
+	left: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 25px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/6 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 10px 30px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
